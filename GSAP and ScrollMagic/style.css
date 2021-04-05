@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-image: url(./bck2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header,
+footer {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+   
+}
+header h5 {
+    font-size: 4rem;
+    padding: 3rem;
+    color: white;
+    font-variant: small-caps;
+    
+}
+header span {
+    font-size: 3rem;
+    font-variant: small-caps;
+}
+
+.animation {
+    height: 100vh;
+
+    position: relative;
+    overflow: hidden;
+}
+.animation h3 {
+    font-size: 5rem;
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left: 26%;
+}
+
+.paper-plane{
+    height: 220px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: 1;
+}
+

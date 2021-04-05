@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+  
+}
+#container {
+    border-color: rgb(148, 49, 49);
+    height: 100vh;
+}
+.img-over::before {
+    content: "";
+    background-image: url(./video/shutterstock_407554567-compressor-1.jpg);
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.intro {
+    height: 100vh;
+ 
+}
+
+.intro video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.intro h1{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 25%;
+
+    transform: translate(-50% -50%);
+    font-size: 10rem;
+}
+.intro p {
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50% -50%);
+    font-size: 3rem;
+}
+section {
+    height: 100vh;
+
+}
+section h1 {
+    padding: 12rem;
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
